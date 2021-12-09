@@ -6,4 +6,5 @@
     <string name="buttonShowDevProfile_Text">Student 1 : Show Profile</string>
     <string name="devList_Description">Here are the list of students who create the app:</string>
     <string name="titleBar_DevsList">Developpers List</string>
+    <string name="titleBar_DevInfo">Developper Information</string>
 </resources>

@@ -5,8 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
-
+class MainActivity : BaseActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,6 +23,7 @@ class MainActivity : AppCompatActivity() {
     private fun btnDevInfoClick() {
         val newIntent = Intent(application,DevsList::class.java)
         startActivity(newIntent)
+
     }
 
     private fun btnUseAPIClick() {

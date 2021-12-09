@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetExamen">
         <activity
+            android:name=".DevInfo"
+            android:exported="false" />
+        <activity
             android:name=".DevsList"
             android:exported="false" />
         <activity

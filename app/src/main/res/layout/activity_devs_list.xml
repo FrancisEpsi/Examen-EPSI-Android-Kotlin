@@ -32,7 +32,7 @@
                 />
 
             <Button
-                android:id="@+id/buttonShowDevProfile"
+                android:id="@+id/buttonShowDevProfile1"
                 android:text="@string/buttonShowDevProfile_Text"
                 style="@style/customMainButton"
                 />
