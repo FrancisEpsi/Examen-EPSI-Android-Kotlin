@@ -5,8 +5,10 @@
       <map>
         <entry key="..\:/Android/Projects/ProjetExamen/app/src/main/res/drawable-night/ic_launcher_background.xml" value="0.22135416666666666" />
         <entry key="..\:/Android/Projects/ProjetExamen/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22135416666666666" />
+        <entry key="..\:/Android/Projects/ProjetExamen/app/src/main/res/layout/activity_devs_list.xml" value="0.20520833333333333" />
         <entry key="..\:/Android/Projects/ProjetExamen/app/src/main/res/layout/activity_launcher.xml" value="0.33" />
-        <entry key="..\:/Android/Projects/ProjetExamen/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Android/Projects/ProjetExamen/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android/Projects/ProjetExamen/app/src/main/res/layout/layout_header.xml" value="0.33" />
         <entry key="..\:/Android/Projects/ProjetExamen/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22135416666666666" />
       </map>
     </option>
