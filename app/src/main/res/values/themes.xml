@@ -16,4 +16,15 @@
         <item name="android:navigationBarColor">@color/white</item>
         <item name="colorPrimaryDark">@color/blue</item>
     </style>
+
+
+    <style name="customMainButton" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
 </resources>
