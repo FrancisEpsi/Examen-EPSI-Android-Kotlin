@@ -4,13 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DevInfo">
+    tools:context=".DevInfo"
+    android:orientation="vertical"
+    >
 
     <include
         layout="@layout/layout_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/imageViewAvatar"
+            android:layout_width="512px"
+            android:layout_height="512px"
+            android:layout_marginTop="64dp"
+            android:layout_marginBottom="32dp"
+            app:srcCompat="@drawable/avatar" />
+
+        <TextView
+            android:id="@+id/textViewDevName"
+            android:layout_marginBottom="10dp"
+            style="@style/DevInfoTextView"
+            android:text="SAURA François" />
+
+        <TextView
+            android:id="@+id/textViewDevEmail"
+            android:layout_marginBottom="10dp"
+            style="@style/DevInfoTextView"
+            android:text="francois.saura@epsi.fr" />
+
+        <TextView
+            android:id="@+id/textViewDevGroup"
+            android:layout_marginBottom="10dp"
+            style="@style/DevInfoTextView"
+            android:text="Groupe 1" />
+
+        <TextView
+            android:id="@+id/linkTextViewEPSI"
+            android:layout_marginBottom="10dp"
+            style="@style/DevInfoLinkTextView"
+            android:text="@string/linkEPSI" />
+
+
+    </LinearLayout>
+
 
 </LinearLayout>

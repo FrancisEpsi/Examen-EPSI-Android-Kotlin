@@ -35,6 +35,18 @@
                 style="@style/customMainButton"
                 />
 
+            <Button
+                android:id="@+id/buttonCredits"
+                android:text="Credits"
+                style="@style/customMainButton"
+                />
+
+            <Button
+                android:id="@+id/buttonRateApp"
+                android:text="Rate App"
+                style="@style/customMainButton"
+                />
+
         </LinearLayout>
 
     </LinearLayout>
