@@ -3,4 +3,7 @@
     <string name="titleBar_Text">EPSI</string>
     <string name="buttonDevInfo_Text">Developper Informations</string>
     <string name="buttonUseAPI_Text">Web API Use</string>
+    <string name="buttonShowDevProfile_Text">Student 1 : Show Profile</string>
+    <string name="devList_Description">Here are the list of students who create the app:</string>
+    <string name="titleBar_DevsList">Developpers List</string>
 </resources>
