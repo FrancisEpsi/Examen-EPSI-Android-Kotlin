@@ -27,6 +27,7 @@ class MainActivity : BaseActivity() {
     }
 
     private fun btnUseAPIClick() {
-
+        val newIntent = Intent(application,CategoryList::class.java)
+        startActivity(newIntent)
     }
 }
