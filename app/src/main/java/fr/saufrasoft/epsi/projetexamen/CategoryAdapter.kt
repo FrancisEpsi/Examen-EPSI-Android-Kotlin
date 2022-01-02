@@ -30,6 +30,7 @@ class CategoryAdapter (private val Categories: ArrayList<Category>): RecyclerVie
             //val newProductIntent = Intent(holder.layoutItemRow.rootView.context, ProductList::class.java)
             val newProductIntent = Intent(holder.layoutItemRow.context, ProductList::class.java)
             newProductIntent.putExtra("category_title", categorieItem.title)
+            newProductIntent.putExtra("category_productURL", categorieItem.product_url)
             holder.layoutItemRow.context.startActivity(newProductIntent)
 
 
@@ -41,7 +42,5 @@ class CategoryAdapter (private val Categories: ArrayList<Category>): RecyclerVie
     override fun getItemCount(): Int {
         return Categories.count()
     }
-
-
 
 }

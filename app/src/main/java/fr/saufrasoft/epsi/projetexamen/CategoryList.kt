@@ -47,7 +47,7 @@ class CategoryList : BaseActivity() {
                         for(i in 0 until jsArray.length()) { //On boucle sur toutes les catégories
                             val jsCategory = jsArray.getJSONObject(i) //Tableau contenant les informations de la catégorie à chaque clé
                             //Création de l'objet catégorie (et instanciation de ses avec leurs valeures):
-                            val categoryObj = Category(jsCategory.optInt("category_id", 0),jsCategory.optString("title","unknow"),jsCategory.optString("product_url","unknow"))
+                            val categoryObj = Category(jsCategory.optInt("category_id", 0),jsCategory.optString("title","unknow"),jsCategory.optString("products_url","https://djemam.com/epsi/drink.json"))
                             categories.add(categoryObj)
                         }
                         //Rafraichissement des données dans le RecyclerView par le thread principal:
