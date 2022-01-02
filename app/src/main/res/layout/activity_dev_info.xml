@@ -13,47 +13,51 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        >
+        android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/imageViewAvatar"
-            android:layout_width="512px"
-            android:layout_height="512px"
-            android:layout_marginTop="64dp"
-            android:layout_marginBottom="32dp"
-            app:srcCompat="@drawable/avatar" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
 
-        <TextView
-            android:id="@+id/textViewDevName"
-            android:layout_marginBottom="10dp"
-            style="@style/DevInfoTextView"
-            android:text="SAURA François" />
+            <ImageView
+                android:id="@+id/imageViewAvatar"
+                android:layout_width="512px"
+                android:layout_height="512px"
+                android:layout_marginTop="64dp"
+                android:layout_marginBottom="32dp"
+                app:srcCompat="@drawable/avatar" />
 
-        <TextView
-            android:id="@+id/textViewDevEmail"
-            android:layout_marginBottom="10dp"
-            style="@style/DevInfoTextView"
-            android:text="francois.saura@epsi.fr" />
+            <TextView
+                android:id="@+id/textViewDevName"
+                android:layout_marginBottom="10dp"
+                style="@style/DevInfoTextView"
+                android:text="SAURA François" />
 
-        <TextView
-            android:id="@+id/textViewDevGroup"
-            android:layout_marginBottom="10dp"
-            style="@style/DevInfoTextView"
-            android:text="Groupe 1" />
+            <TextView
+                android:id="@+id/textViewDevEmail"
+                android:layout_marginBottom="10dp"
+                style="@style/DevInfoTextView"
+                android:text="francois.saura@epsi.fr" />
 
-        <TextView
-            android:id="@+id/linkTextViewEPSI"
-            android:layout_marginBottom="10dp"
-            style="@style/DevInfoLinkTextView"
-            android:text="@string/linkEPSI" />
+            <TextView
+                android:id="@+id/textViewDevGroup"
+                android:layout_marginBottom="10dp"
+                style="@style/DevInfoTextView"
+                android:text="Groupe 1" />
+
+            <TextView
+                android:id="@+id/linkTextViewEPSI"
+                android:layout_marginBottom="10dp"
+                style="@style/DevInfoLinkTextView"
+                android:text="@string/linkEPSI" />
 
 
-    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
 
 </LinearLayout>
