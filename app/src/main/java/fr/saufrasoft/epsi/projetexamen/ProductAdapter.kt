@@ -14,7 +14,7 @@ import java.lang.StringBuilder
 class ProductAdapter (private val Products: ArrayList<Product>): RecyclerView.Adapter<ProductAdapter.ViewHolder>() {
 
     class ViewHolder (view: View) : RecyclerView.ViewHolder(view){
-        val layoutItemRow = view.findViewById<LinearLayout>(R.id.productItemRowLayout)
+        val layoutProductItemRow = view.findViewById<LinearLayout>(R.id.productItemRowLayout)
         val imageViewProductImage = view.findViewById<ImageView>(R.id.productImageView)
         val tbProductTitle = view.findViewById<TextView>(R.id.textViewProductTitle)
         val tbProductDescription = view.findViewById<TextView>(R.id.textViewProductDescription)
@@ -42,10 +42,10 @@ class ProductAdapter (private val Products: ArrayList<Product>): RecyclerView.Ad
         Picasso.get().load(productItem.picture_url).into(holder.imageViewProductImage)
 
 
-        holder.layoutItemRow.setOnClickListener(View.OnClickListener {
-            //val newProductIntent = Intent(holder.layoutItemRow.context, ProductList::class.java)
-            //newProductIntent.putExtra("category_title", categorieItem.title)
-            //holder.layoutItemRow.context.startActivity(newProductIntent)
+        holder.layoutProductItemRow.setOnClickListener(View.OnClickListener {
+            val newProductDetailsIntent = Intent(holder.layoutProductItemRow.context, ProductDetails::class.java)
+            newProductDetailsIntent.putExtra("productObj", productItem)
+            holder.layoutProductItemRow.context.startActivity(newProductDetailsIntent)
         })
     }
 
