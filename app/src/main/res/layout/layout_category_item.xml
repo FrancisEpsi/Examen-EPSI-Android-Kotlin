@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:padding="20dp">
 
     <LinearLayout
         android:id="@+id/categoryItemRowLayout"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/blue"
         >
 
         <TextView
@@ -17,9 +20,10 @@
             android:layout_height="wrap_content"
             android:text="@string/tv_CategoryItem_CategoryName"
             android:textAlignment="center"
-            android:textSize="16pt"
-            android:layout_marginVertical="10dp"
-            android:layout_marginHorizontal="20dp"
+            android:textSize="14pt"
+            android:layout_margin="2dp"
+            android:background="@color/backcolor"
+            android:textColor="@color/forecolor"
             />
     </LinearLayout>
 

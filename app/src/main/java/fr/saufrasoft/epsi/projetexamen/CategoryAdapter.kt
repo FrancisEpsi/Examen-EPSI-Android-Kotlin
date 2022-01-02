@@ -36,6 +36,8 @@ class CategoryAdapter (private val Categories: ArrayList<Category>): RecyclerVie
 
 
         })
+
+
     }
 
 

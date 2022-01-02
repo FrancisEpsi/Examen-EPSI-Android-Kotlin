@@ -7,6 +7,6 @@
     <color name="yellow">#FFEE00</color>
     <color name="light_yellow">#FFF464</color>
     <color name="red">#FF638D</color>
-    <color name="forecolor">@color/black</color>
-    <color name="backcolor">@color/white</color>
+    <color name="forecolor">@color/white</color>
+    <color name="backcolor">@color/black</color>
 </resources>
