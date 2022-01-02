@@ -12,8 +12,7 @@ class CategoryList : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_category_list)
         showBtnBack()
-        setHeaderTitle("Category List")
-
+        setHeaderTitle(getString(R.string.titleBar_CategoryList))
 
 
         val categories = arrayListOf<Category>()

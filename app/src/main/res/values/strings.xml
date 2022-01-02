@@ -9,4 +9,5 @@
     <string name="titleBar_DevInfo">Developper Information</string>
     <string name="linkEPSI"><u>http://www.epsi.fr/</u></string>
     <string name="errorLinkViewEPSI">No application to handle this link ! Please install web browser.</string>
+    <string name="titleBar_CategoryList">CategoryList</string>
 </resources>

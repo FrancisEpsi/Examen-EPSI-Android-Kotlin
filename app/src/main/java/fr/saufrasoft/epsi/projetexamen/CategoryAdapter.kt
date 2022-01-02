@@ -1,12 +1,14 @@
 package fr.saufrasoft.epsi.projetexamen
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
+
 
 class CategoryAdapter (private val Categories: ArrayList<Category>): RecyclerView.Adapter<CategoryAdapter.ViewHolder>() {
 
@@ -23,10 +25,23 @@ class CategoryAdapter (private val Categories: ArrayList<Category>): RecyclerVie
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val categorieItem = Categories.get(position)
         holder.tbCategoryTitle.text = categorieItem.title
+
+        holder.layoutItemRow.setOnClickListener(View.OnClickListener {
+            //val newProductIntent = Intent(holder.layoutItemRow.rootView.context, ProductList::class.java)
+            val newProductIntent = Intent(holder.layoutItemRow.context, ProductList::class.java)
+            newProductIntent.putExtra("category_title", categorieItem.title)
+            holder.layoutItemRow.context.startActivity(newProductIntent)
+
+
+
+        })
     }
+
 
     override fun getItemCount(): Int {
         return Categories.count()
     }
+
+
 
 }
