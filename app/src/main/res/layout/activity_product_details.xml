@@ -37,11 +37,11 @@
                 android:layout_weight="1"
                 android:textAlignment="center"
                 android:textSize="14dp"
-                android:text="Description du produit" />
+                android:text="@string/tv_ProductDetails_ProductDescription" />
 
         </LinearLayout>
 
     </ScrollView>
-    
+
 
 </LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Projet Examen</string>
+    <string name="titleBar_Text">EPSI</string>
+    <string name="buttonDevInfo_Text">Information développeur</string>
+    <string name="buttonUseAPI_Text">Boutique (Etape 2)</string>
+    <string name="buttonShowDevProfile_Text">Profil de l\'etudiant n°1</string>
+    <string name="devList_Description">Voici les listes des étudiants ayant créer l\'application:</string>
+    <string name="titleBar_DevsList">Développeurs</string>
+    <string name="titleBar_DevInfo">Profil du développeur</string>
+    <string name="linkEPSI"><u>http://www.epsi.fr/</u></string>
+    <string name="errorLinkViewEPSI">Il n\'y a pas d\'application supportant l\'ouverture d\'un lien ! Merci d\'installer un navigateur internet.</string>
+    <string name="titleBar_CategoryList">Catégories du magasin</string>
+    <string name="btn_main_credits">Crédits images</string>
+    <string name="btn_main_rate">Notez l\'application</string>
+    <string name="tv_ProductDetails_ProductDescription">Description du produit:</string>
+    <string name="tv_CategoryItem_CategoryName">Nom de la catégorie (vide)</string>
+    <string name="tv_ProductItem_ProductName">Nom du produit (vide)</string>
+    <string name="tv_ProductItem_ProductDescription">Description du produit (vide)</string>
+</resources>

@@ -37,13 +37,13 @@
 
             <Button
                 android:id="@+id/buttonCredits"
-                android:text="Credits"
+                android:text="@string/btn_main_credits"
                 style="@style/customMainButton"
                 />
 
             <Button
                 android:id="@+id/buttonRateApp"
-                android:text="Rate App"
+                android:text="@string/btn_main_rate"
                 style="@style/customMainButton"
                 />
 

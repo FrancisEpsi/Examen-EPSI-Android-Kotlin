@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ProjetExamen</string>
+    <string name="app_name">EPSI Project</string>
     <string name="titleBar_Text">EPSI</string>
     <string name="buttonDevInfo_Text">Developper Informations</string>
     <string name="buttonUseAPI_Text">Web API Use</string>
@@ -10,4 +10,10 @@
     <string name="linkEPSI"><u>http://www.epsi.fr/</u></string>
     <string name="errorLinkViewEPSI">No application to handle this link ! Please install web browser.</string>
     <string name="titleBar_CategoryList">CategoryList</string>
+    <string name="btn_main_credits">Image Credits</string>
+    <string name="btn_main_rate">Rate App</string>
+    <string name="tv_ProductDetails_ProductDescription">Description of the product:</string>
+    <string name="tv_CategoryItem_CategoryName">Category name (empty)</string>
+    <string name="tv_ProductItem_ProductName">Product name (empty)</string>
+    <string name="tv_ProductItem_ProductDescription">Product description (empty)</string>
 </resources>

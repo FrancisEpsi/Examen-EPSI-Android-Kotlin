@@ -39,14 +39,14 @@
                     android:layout_height="wrap_content"
                     android:paddingBottom="10dp"
                     android:textSize="16sp"
-                    android:text="Nom du produit"
+                    android:text="@string/tv_ProductItem_ProductName"
                     />
                 <TextView
                     android:id="@+id/textViewProductDescription"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
-                    android:text="Description du produit"
+                    android:text="@string/tv_ProductItem_ProductDescription"
                     />
 
 

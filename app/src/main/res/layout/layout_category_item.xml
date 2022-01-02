@@ -15,7 +15,7 @@
             android:id="@+id/textViewCategoryTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nom de la categorie"
+            android:text="@string/tv_CategoryItem_CategoryName"
             android:textAlignment="center"
             android:textSize="16pt"
             android:layout_marginVertical="10dp"
