@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">EPSI Project</string>
     <string name="titleBar_Text">EPSI</string>
-    <string name="buttonDevInfo_Text">Developper Informations</string>
+    <string name="buttonDevInfo_Text">Developer Informations</string>
     <string name="buttonUseAPI_Text">Web API Use</string>
     <string name="buttonShowDevProfile_Text">Student 1 : Show Profile</string>
     <string name="devList_Description">Here are the list of students who create the app:</string>
-    <string name="titleBar_DevsList">Developpers List</string>
-    <string name="titleBar_DevInfo">Developper Information</string>
+    <string name="titleBar_DevsList">Developers List</string>
+    <string name="titleBar_DevInfo">Developer Information</string>
     <string name="linkEPSI"><u>http://www.epsi.fr/</u></string>
     <string name="errorLinkViewEPSI">No application to handle this link ! Please install web browser.</string>
     <string name="titleBar_CategoryList">CategoryList</string>
@@ -16,4 +16,11 @@
     <string name="tv_CategoryItem_CategoryName">Category name (empty)</string>
     <string name="tv_ProductItem_ProductName">Product name (empty)</string>
     <string name="tv_ProductItem_ProductDescription">Product description (empty)</string>
+    <string name="tv_ImageCredits_Description">Here is all images credits:</string>
+    <string name="tv_RateAppDescription">If you have liked the app, you can submit me a score for app development.\n WARNING : Score data will be stored in my personal database (Network must be enabled)\n\nIf you have already submit a score, it will be show in few seconds (async operation), please wait. You can also edit your vote by resubmitting.</string>
+    <string name="RateApp_Title">Rate App</string>
+    <string name="btn_RateApp_Submit">Submit</string>
+    <string name="error_RateApp_GetLastRate">HTTP Get Error while getting your last rate !</string>
+    <string name="info_RateApp_Submitting">Your vote is submitting, please wait.</string>
+    <string name="error_RateApp_SubmitRate">HTTP Get Error while sending your rate ! Please try again.</string>
 </resources>

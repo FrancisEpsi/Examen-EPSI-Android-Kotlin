@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetExamen">
         <activity
+            android:name=".RateAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImageCreditsActivity"
+            android:exported="false" />
+        <activity
             android:name=".ProductDetails"
             android:exported="false" />
         <activity

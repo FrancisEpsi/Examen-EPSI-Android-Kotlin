@@ -14,9 +14,13 @@ class MainActivity : BaseActivity() {
 
         val btnDevInfo = findViewById<Button>(R.id.buttonDevInfo)
         val btnUseAPI = findViewById<Button>(R.id.buttonUseAPI)
+        val btnImageCredits = findViewById<Button>(R.id.buttonCredits)
+        val btnRateApp = findViewById<Button>(R.id.buttonRateApp)
 
         btnDevInfo.setOnClickListener{ btnDevInfoClick() }
         btnUseAPI.setOnClickListener{ btnUseAPIClick() }
+        btnImageCredits.setOnClickListener{ btnImageCreditsClick() }
+        btnRateApp.setOnClickListener{ btnRateAppClick() }
 
     }
 
@@ -28,6 +32,16 @@ class MainActivity : BaseActivity() {
 
     private fun btnUseAPIClick() {
         val newIntent = Intent(application,CategoryList::class.java)
+        startActivity(newIntent)
+    }
+
+    private fun btnImageCreditsClick() {
+        val newIntent = Intent(application,ImageCreditsActivity::class.java)
+        startActivity(newIntent)
+    }
+
+    private fun btnRateAppClick() {
+        val newIntent = Intent(application,RateAppActivity::class.java)
         startActivity(newIntent)
     }
 }

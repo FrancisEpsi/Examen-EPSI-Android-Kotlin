@@ -16,4 +16,11 @@
     <string name="tv_CategoryItem_CategoryName">Nom de la catégorie (vide)</string>
     <string name="tv_ProductItem_ProductName">Nom du produit (vide)</string>
     <string name="tv_ProductItem_ProductDescription">Description du produit (vide)</string>
+    <string name="tv_ImageCredits_Description">Par obligation de mention, vous trouverez ici toutes les images utilisées dans l\'application ainsi que son artiste correspondant. \n Ces Images sont soumises à la licence FlatIcon:</string>
+    <string name="tv_RateAppDescription">Si vous avez aimer l\'application, vous pouvez la noter sur une note de 5 étoiles\n( pour avoir une petite idée de ma note ;) )\n ATTENTION: les données seront envoyés sur mon serveur (accès internet nécessaire)\n \nSi vous avez déjà noté, votre précédent vote devrait s\'afficher (Opération asynchrone, veuillez patienter.) \nVous pouvez également modifier votre note en réenvoyant votre vote.</string>
+    <string name="RateApp_Title">Notez l\'application</string>
+    <string name="btn_RateApp_Submit">Envoyer le vote</string>
+    <string name="error_RateApp_GetLastRate">Une erreur de requêtage HTTP est survenue durant la récupération de votre dernier vote.</string>
+    <string name="info_RateApp_Submitting">Vote en cours d\'enregistrement sur le serveur.\n Veuillez patienter.</string>
+    <string name="error_RateApp_SubmitRate">Une erreur est survenue durant l\'envoi de la requête HTTP contenant votre vote. Veuillez réessayer.</string>
 </resources>
